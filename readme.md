@@ -1,10 +1,10 @@
 # Project Automation Testing
 
-#### Description
+## Description
 
 This project is a simple automation testing for website 'https://www.saucedemo.com' with selenium, it also includes API testing provided by 'https://dummyapi.io' and tested with Requests library. For creating and running the scenario, we use Behave library. The project is written in Python language.
 
-#### Prerequisites
+## Prerequisites
 
 - Allure
   - Download and install Allure from https://docs.qameta.io/allure/
@@ -21,7 +21,7 @@ This project is a simple automation testing for website 'https://www.saucedemo.c
     - https://chromedriver.chromium.org/downloads
     - Note : Make sure to download the version that matches your Chrome browser version.
 
-##### Installation
+### Installation
 
 - Clone the following repository:
   - https://github.com/GitGudwl/AutomationTestingProject/tree/main
@@ -38,7 +38,7 @@ This project is a simple automation testing for website 'https://www.saucedemo.c
   - `selenium`
   - `allure-behave`
 
-#### File Configuration
+## File Configuration
 
 - To add new test cases, you can create a new feature file in the 'features' folder and add the steps in the 'steps' folder.
   - Note : Behave python not allowing multiple folders for steps, so you need to put all the steps in the 'steps' folder (I know it's hard to manage).
@@ -61,7 +61,7 @@ This project is a simple automation testing for website 'https://www.saucedemo.c
   ```
   - Note : Delete the 'Reports' folder if you want to re-generate the test reports using Allure.
 
-#### Running the Test
+## Running the Test
 
 - To run all the test scenarios, you can run the following command:
   - `behave`
@@ -79,11 +79,11 @@ This project is a simple automation testing for website 'https://www.saucedemo.c
 - Website : https://www.saucedemo.com
 - API : https://dummyapi.io
 
-#### Test Cases or Scenarios
+## Test Cases or Scenarios
 
 The test cases or scenarios are written in the 'features' folder with the '.feature' extension.
 
-#### Author
+## Author
 
 - Zahri Al Adzani Hidayat
 - Muhammad Fadhil
