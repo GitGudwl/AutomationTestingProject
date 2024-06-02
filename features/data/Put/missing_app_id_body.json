@@ -1,0 +1,18 @@
+{
+    "title": "mrs",
+    "firstName": "Josefina",
+    "lastName": "Calvo",
+    "picture": "https://randomuser.me/api/portraits/med/women/3.jpg",
+    "gender": "female",
+    "email": "josefina.calvo@example.com",
+    "dateOfBirth": "1982-01-27T16:01:51.717Z",
+    "phone": "976-538-478",
+    "location": {
+      "street": "8941, Calle de Argumosa",
+      "city": "Orihuela",
+      "state": "Ceuta",
+      "country": "Spain",
+      "timezone": "0:00"
+    }
+  }
+  

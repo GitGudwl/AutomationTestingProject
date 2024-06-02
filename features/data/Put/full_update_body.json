@@ -1,0 +1,18 @@
+{
+    "title": "mr",
+    "firstName": "Josafina",
+    "lastName": "Calvi",
+    "picture": "https://randomuser.me/api/portraits/med/women/3.jpg",
+    "gender": "male",
+    "email": "josefina.calvo@example.com",
+    "dateOfBirth": "1995-01-27T16:01:51.717Z",
+    "phone": "977-538-478",
+    "location": {
+      "street": "8951, Calle de Argumosa",
+      "city": "Orichuela",
+      "state": "Cheuta",
+      "country": "USA",
+      "timezone": "1:00"
+    }
+  }
+  
