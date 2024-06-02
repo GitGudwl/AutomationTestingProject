@@ -2,7 +2,7 @@ Feature: API TEST - GET
 
     Scenario: Missing APP_ID header
         Given the GET header "app-id" is ""
-        When I make a GET request to "60d0fe4f5311236168a109fa"
+        When I make a GET request to "60d0fe4f5311236168a10a06"
         Then the GET status code should be 403
         And the GET response should contain "error" with value "APP_ID_MISSING"
 

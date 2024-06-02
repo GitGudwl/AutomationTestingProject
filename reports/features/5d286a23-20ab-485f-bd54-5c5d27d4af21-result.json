@@ -1,0 +1,67 @@
+{
+    "name": "Missing APP_ID header",
+    "status": "failed",
+    "statusDetails": {
+        "message": "AssertionError\n",
+        "trace": "  File \"C:\\Users\\Zahri Hidayat\\.conda\\envs\\Softwar_Testing\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\Zahri Hidayat\\.conda\\envs\\Softwar_Testing\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\ApiDelete_steps.py\", line 25, in step_impl\n    assert context.response.status_code == status_code\n"
+    },
+    "steps": [
+        {
+            "name": "Given the DELETE header \"app-id\" is \"\"",
+            "status": "passed",
+            "start": 1717322782823,
+            "stop": 1717322782823
+        },
+        {
+            "name": "And the DELETE request user ID is \"60d0fe4f5311236168a109fb\"",
+            "status": "passed",
+            "start": 1717322782823,
+            "stop": 1717322782823
+        },
+        {
+            "name": "When I make a DELETE request to it",
+            "status": "passed",
+            "start": 1717322782824,
+            "stop": 1717322783148
+        },
+        {
+            "name": "Then the DELETE status code should be 403",
+            "status": "failed",
+            "statusDetails": {
+                "message": "AssertionError\n",
+                "trace": "  File \"C:\\Users\\Zahri Hidayat\\.conda\\envs\\Softwar_Testing\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\Zahri Hidayat\\.conda\\envs\\Softwar_Testing\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\ApiDelete_steps.py\", line 25, in step_impl\n    assert context.response.status_code == status_code\n"
+            },
+            "start": 1717322783148,
+            "stop": 1717322783149
+        },
+        {
+            "name": "And the DELETE response should contain \"error\" with value \"APP_ID_MISSING\"",
+            "status": "skipped",
+            "start": 1717322783149,
+            "stop": 1717322783149
+        }
+    ],
+    "start": 1717322782822,
+    "stop": 1717322783149,
+    "uuid": "bbb8aae0-5d1f-4909-82b4-3404d88e1504",
+    "historyId": "71d96fdbb6c5f6a6a74f015568894c64",
+    "fullName": "Api testing for delete endpoint: Missing APP_ID header",
+    "labels": [
+        {
+            "name": "severity",
+            "value": "normal"
+        },
+        {
+            "name": "feature",
+            "value": "Api testing for delete endpoint"
+        },
+        {
+            "name": "framework",
+            "value": "behave"
+        },
+        {
+            "name": "language",
+            "value": "cpython3"
+        }
+    ]
+}
